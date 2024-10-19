@@ -1,0 +1,204 @@
+/* Navbar Styling */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    height: 30px; /* Increase height for better usability */
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+    color: whitesmoke;
+    font-size: 1rem;
+  }
+  
+  nav .but1 {
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav .but1:hover {
+    background-color: #555;
+  }
+  
+  nav #but2 {
+    background-color: green;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Main Content after Navbar */
+  #maindiv {
+    text-align: center;
+    padding-top: 0;  /* Set padding-top to 0 to remove gap */
+  }
+  
+  /* Background Section */
+  /* Background Section */
+  #bacimg {
+    background: url('https://cdn.pixabay.com/photo/2020/03/28/21/13/mountain-4978596_1280.jpg') no-repeat center center;
+    background-size: cover; /* Ensure the background covers the full area */
+    color: white;
+    padding: 100px 0; /* Adjust height to fit the screen */
+    margin: 0;  /* No margin */
+    height: 400px;  /* Set height to 400px */
+    width: 100%; /* Ensure the background spans 100% width */
+    display: flex; /* Flexbox for centering text content inside */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Text in Background Section */
+  #tx h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #tx p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  #tx span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #ic {
+    margin-left: -40px;
+    color: #333;
+  }
+  
+  /* Button Section */
+  #buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  #buttons button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #buttons button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Image Grid */
+  #ren {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px; /* Add space before footer */
+  }
+  
+  #ren img {
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  #ren img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 50px; /* Add some margin to separate the footer from the images */
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  
+  .footer-content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom p {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .social-icons a:hover {
+    color: #00aced;
+  }
+  
